@@ -1,0 +1,79 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "First project for the Treehouse Full-Stack JavaScript Techdegree. Single-paged app that displays a quote at random each time the button is clicked. Uses knowledge of basic JavaScript syntax, variables, loops, conditionals and object literals.",
+            "technologies": [
+                "HTML", "CSS", "JavaScript"
+            ],
+            "live_link": "https://jasonrhowie.com/random-quote-generator/",
+            "github_link": "https://github.com/bt93/random-quote-generator",
+            "image_urls": [
+                "images/project1_1.png",
+                "images/project1_2.png",
+                "images/project1_3.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering",
+            "description": "Second project for the Treehouse Full-Stack JavaScript Techdegree. Single-paged app that displays a list of users that are hard coded into the HTML. It then uses JavaScript to display ten users at a time a paginates it. When the links at the bottom are clicked the corresponding page is displayed. Also alows the user to filter through names with a search bar.",
+            "technologies": [
+                "HTML", "CSS", "JavaScript"
+            ],
+            "live_link": "https://jasonrhowie.com/list-pagination-and-filtering/",
+            "github_link": "https://github.com/bt93/list-pagination-and-filtering",
+            "image_urls": [
+                "images/project2_1.png",
+                "images/project2_2.png",
+                "images/project2_3.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Third project for the Treehouse Full-Stack JavaScript Techdegree. App that manipulates a registration form and validates the users input. Gives different error messages when the page is submited with invalid inputs.",
+            "technologies": [
+                "HTML", "CSS", "JavaScript", "jQuery"
+            ],
+            "live_link": "https://jasonrhowie.com/interactive-form/",
+            "github_link": "https://github.com/bt93/interactive-form",
+            "image_urls": [
+                "images/project3_1.png",
+                "images/project3_2.png",
+                "images/project3_3.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game",
+            "description": "Fourth project for the Treehouse Full-Stack JavaScript Techdegree. A phrase hunter game similar to the popular game 'hangman'. Guess what letters are within the phrase by clicking on that key. If the letter is in the phrase it'll show on the template. If you guess incorrectly, you lose a life. Lose all your lives and you lose. If you guess a the letters correctly you win the game. Uses object-oriented programming and DOM manipulation. Animate.css was used for animations.",
+            "technologies": [
+                "HTML", "CSS", "JavaScript"
+            ],
+            "live_link": "https://jasonrhowie.com/oop-game/",
+            "github_link": "https://github.com/bt93/oop-game",
+            "image_urls": [
+                "images/project4_1.png",
+                "images/project4_2.png",
+                "images/project4_3.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Request",
+            "description": "Fifth project for the Treehouse Full-Stack JavaScript Techdegree. An application that for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. This application makes an AJAX call to a Random User Generator and display the response on the page. When the image or name is clicked a modal window is clicked with more detailed information, such as the employee’s birthday and address. I have added a modal toggle so that you can easily move between users info and a search bar that searches the users on the page. I have also added my own background colors to make it my own.",
+            "technologies": [
+                "HTML", "CSS", "JavaScript"
+            ],
+            "live_link": "https://jasonrhowie.com/public-api-request/",
+            "github_link": "https://github.com/bt93/public-api-request",
+            "image_urls": [
+                "images/project5_1.png",
+                "images/project5_2.png",
+                "images/project5_3.png"
+            ]
+        }
+    ]
+}
