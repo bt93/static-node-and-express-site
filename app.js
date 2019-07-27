@@ -1,7 +1,7 @@
 // Requires the necessary dependancies and files
 const express = require('express');
 const data = require('./data.json');
-const routes = require('./routes');
+const {home, about, project} = require('./routes/index');
 
 // Creates the app and sets the port
 const app = express();
@@ -11,7 +11,9 @@ const port = 3000;
 app.set('view engine', 'pug');
 app.use(express.static('public'));
 
-app.use('/', routes);
+app.get('/', home);
+app.get('/about', about);
+app.get('/project/:id', project);
 
 // Listens on the set port
 app.listen(port, () => {

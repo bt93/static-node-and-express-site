@@ -1,8 +1,16 @@
 const routes = require('express').Router();
 const data = require('../data.json');
 
-routes.get('/', (req, res) => {
-    res.render('index', {data: data.projects});
-});
+module.exports = {
+    home: (req, res) => {
+        res.render('index' , {data: data.projects});
+    },
 
-module.exports = routes;
+    about: (req, res) => {
+        res.render('about');
+    },
+
+    project: (req, res) => {
+        res.render('project', {data: data.projects[req.param.id]});
+    }
+}
