@@ -1,0 +1,27 @@
+{
+  "name": "static-node-and-express-site",
+  "version": "1.0.0",
+  "description": "A static site created with node and express, for the Treehouse Techdegree.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bt93/static-node-and-express-site.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express"
+  ],
+  "author": "Jason Howie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bt93/static-node-and-express-site/issues"
+  },
+  "homepage": "https://github.com/bt93/static-node-and-express-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
