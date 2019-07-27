@@ -11,6 +11,7 @@ const port = 3000;
 app.set('view engine', 'pug');
 app.use(express.static('public'));
 
+// Creates routes for each page
 app.get('/', home);
 app.get('/about', about);
 app.get('/project/:id', project);

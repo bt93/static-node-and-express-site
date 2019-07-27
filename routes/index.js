@@ -11,6 +11,6 @@ module.exports = {
     },
 
     project: (req, res) => {
-        res.render('project', {data: data.projects[req.param.id]});
+        res.render('project', {data: data.projects[req.params.id]});
     }
 }
