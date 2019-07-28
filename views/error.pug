@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
+    article.grid-container.portfolio-intro.portfolio-project
+        .grid-x
+        .cell.small-6.medium-9.large-9
+
+        h1= err.status
+        h2= err.message
+        p There was a problem recieving the page you were looking for. 
+        div
+            a(href="https://http.cat/" target="_blank")
+                img.image(src=`https://http.cat/${err.status}` alt=`${err.status} Cat`)
