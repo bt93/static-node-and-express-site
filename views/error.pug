@@ -9,7 +9,8 @@ block content
 
         h1= err.status
         h2= err.message
-        p There was a problem recieving the page you were looking for. 
+        p There was a problem recieving the page you were looking for.
+        p= err.stack 
         div
             a(href="https://http.cat/" target="_blank")
                 img.image(src=`https://http.cat/${err.status}` alt=`${err.status} Cat`)
