@@ -4,3 +4,6 @@ Sixth project for the Treehouse Full-Stack JavaScript Techdegree. Portfolio site
 ## Uses
 * Node.js
 * Express
+
+## Changes in CSS
+I made three changes in the color, background color and the font family for the project.
